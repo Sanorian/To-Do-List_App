@@ -1,4 +1,8 @@
-data = open('todo.txt').readlines()
+import os.path
+if os.path.isfile('todo.txt')==True:
+    data = open('todo.txt').readlines()
+else:
+    data = open('todo.txt', "w+").readlines()
 while '\n' in data:
     data.pop(data.index('\n'))
 exit_flag=0
