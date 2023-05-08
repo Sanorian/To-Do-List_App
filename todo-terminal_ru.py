@@ -17,7 +17,10 @@ while True:
     command = input('Введите команду->')
     if command=='add':
         case = input("Введите задачу ->")
-        data.append(case)    
+        data.append(case)
+        todo_file = open('todo.txt', 'w')
+        for i in range(0, len(data)):
+            todo_file.write(data[i])
     elif command=='delete':
         while True:
             for i in range(0, len(data)):
@@ -29,6 +32,9 @@ while True:
                 break
             except:
                 print('Что-то пошло не так, попробуйте еще раз')
+        todo_file = open('todo.txt', 'w')
+        for i in range(0, len(data)):
+            todo_file.write(data[i])
     elif command=='show':
         for i in range(0, len(data)):
             print(data[i])
