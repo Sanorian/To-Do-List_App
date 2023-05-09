@@ -6,8 +6,8 @@ I will be happy, if you'll use it!
 python todo-terminal_en.py
 ```
 For run GUI app:
-# 1)by .py sript. Enter this command to terminal:
+# 1) by .py sript. Enter this command to terminal:
 ```
 python toddo-GUI_en.py
 ```
-# 2)by .exe file: open "ToDo-App_EN" folder and run "ToDo-App.exe"
+# 2) by .exe file: open "ToDo-App_EN" folder and run "ToDo-App.exe"
