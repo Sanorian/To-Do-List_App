@@ -11,3 +11,8 @@ For run GUI app:
 python toddo-GUI_en.py
 ```
 # 2) by .exe file: open "ToDo-App_EN" folder and run "ToDo-App.exe"
+
+# 3) by the bash: run .sh script file:
+```
+sh todo-GUI_en.sh
+```
